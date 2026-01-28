@@ -1,5 +1,4 @@
-# Evaluating Large Language Model Capabilities for Zero-Shot
-Multi-Class Vulnerability Detection
+# Evaluating Large Language Model Capabilities for Zero-Shot Multi-Class Vulnerability Detection
 
 ## 🗂️ Repository Structure
 
