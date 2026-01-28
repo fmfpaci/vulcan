@@ -29,7 +29,7 @@ def filtra_e_sovrascrivi_excel_multi_base(cwe_config, estensione='xlsx'):
     e sovrascrive i file originali con la versione filtrata.
     """
 
-    RADICE_LLMS = "/Users/federicapaci/Documents/FSE2026/ResearchQuestion4/LLMS-Flawfinder"
+    RADICE_LLMS = ""
     cartelle_livello_3 = ['Sven', 'PrimeVul', 'DiverseVul']
     NOME_COLONNA_FILTRO = 'File Name'
     TAG_NON_VULNERABILE = 'NOT_VULNERABLE'

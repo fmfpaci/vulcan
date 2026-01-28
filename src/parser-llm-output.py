@@ -106,7 +106,7 @@ except ImportError:
 # ==================================================================================================
 
 # Default base directory where datasets are located. This is used if the --test-dir argument is not provided.
-DEFAULT_MODEL_DIR = "/Users/federicapaci/Documents/VULCAN-PROJECT/vulcan/Qwen32B"
+DEFAULT_MODEL_DIR = ""
 # The specific dataset folder name within the base directory.
 DATASET_DIR = "PrimeVul"
 # Path to the CWE XML file, used to validate the existence of a CWE ID.
