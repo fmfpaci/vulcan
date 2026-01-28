@@ -1,0 +1,945 @@
+File: READMATIMAGE_MAT_CWE-416.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: DECODE_ZBUF_PNGDEC_CWE-787.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PHP_MINIT_FUNCTION_SPL_ARRAY_CWE-416.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: XFS_ATTR_SHORTFORM_TO_LEAF_XFS_ATTR_LEAF_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: RESOLVESTATEANDPREDICATE_COMPAT_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: __MDIOBUS_REGISTER_MDIO_BUS_CWE-416.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: RDS_TCP_KILL_SOCK_TCP_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: BIN_SYMBOLS_CBIN_CWE-078.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: UPDATE_READ_ICON_INFO_WINDOW_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MAKE_CANONICAL_PARSER_CWE-787.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MXF_PARSE_STRUCTURAL_METADATA_MXFDEC_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: __EXT4_JOURNAL_STOP_EXT4_JBD2_CWE-416.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: USB_AUDIO_PROBE_CARD_CWE-416.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: SND_USB_CREATE_STREAMS_CARD_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: WRAP_LINES_SMART_NOT_VULNERABLE_ASS_RENDER.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MATCHCURRENTINPUT_LOU_TRANSLATESTRING_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: GETMAGICKMODULEPATH_MODULE_CWE-022.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: HASH_ACCEPT_ALGIF_HASH_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: UPDATE_READ_BITMAP_DATA_UPDATE_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: FPM_LOG_WRITE_FPM_LOG_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PATCH_CORE_CWE-787.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: WRAP_LINES_SMART_ASS_RENDER_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: READDCMIMAGE_DCM_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: JAVA_SWITCH_OP_ANAL_JAVA_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: GETTOKEN_ASM_X86_NZ_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: R_PKCS7_PARSE_CMS_R_PKCS7_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: NNTP_HCACHE_NAMER_NOT_VULNERABLE_NEWSRC.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: LYS_RESTR_DUP_TREE_SCHEMA_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: IMAGINGLIBTIFFDECODE_TIFFDECODE_CWE-190.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: LUAD_SHRINKSTACK_LDO_CWE-416.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: READPWPIMAGE_NOT_VULNERABLE_PWP.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PHP_MINIT_FUNCTION_NOT_VULNERABLE_SPL_ARRAY.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MPOL_PARSE_STR_MEMPOLICY_CWE-787.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MEGASAS_ALLOC_CMDS_MEGARAID_SAS_BASE_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: SSL_PARSE_SERVER_PSK_HINT_SSL_CLI_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: TIFFSEEKCUSTOMSTREAM_NOT_VULNERABLE_TIFF.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: APE_DECODE_FRAME_APEDEC_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: SET_GEOMETRY_FLOPPY_CWE-190.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: KVM_VM_IOCTL_CHECK_EXTENSION_POWERPC_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: _6502_OP_ANAL_6502_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: WRITETIFFIMAGE_TIFF_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: NAME_PARSE_EVDNS_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: X86_INSN_REG_INTEL_X86MAPPING_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: RFBHANDLEAUTHRESULT_NOT_VULNERABLE_RFBPROTO.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: NEXT_LINE_NOT_VULNERABLE_ARCHIVE_READ_SUPPORT_FORMAT_MTREE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: TCOS_DECIPHER_CARD-TCOS_CWE-787.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: SKB_SEGMENT_SKBUFF_CWE-416.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PGXTOIMAGE_CONVERT_CWE-787.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: CONCAT_HASH_STRING_SSH_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: BIG_KEY_INIT_BIG_KEY_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: RDS_CMSG_ATOMIC_RDMA_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: _6502_OP_NOT_VULNERABLE_ANAL_6502.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MAPIPRINT_YTNEF_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: FORMUPDATEBUFFER_FORM_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PARSE_HID_REPORT_DESCRIPTOR_GTCO_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: LYS_RESTR_DUP_NOT_VULNERABLE_TREE_SCHEMA.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MEGASAS_ALLOC_CMDS_NOT_VULNERABLE_MEGARAID_SAS_BASE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: TIFFSEEKCUSTOMSTREAM_TIFF_CWE-190.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: GDI_BITMAP_DECOMPRESS_GRAPHICS_CWE-190.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PARSE_STRING_CJSON_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: RFBHANDLEAUTHRESULT_RFBPROTO_CWE-787.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: ARES_PARSE_A_REPLY_ARES_PARSE_A_REPLY_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: CREATE_DUMP_DIR_FROM_PROBLEM_DATA_NOT_VULNERABLE_CREATE_DUMP_DIR.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: READPWPIMAGE_PWP_CWE-416.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: HANDLE_METHOD_CALL_ABRT-DBUS_CWE-022.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: X86_DECODE_INSN_EMULATE_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: BLOSC_C_BLOSC2_CWE-787.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: HANDLE_PORT_FTPCMD_CWE-787.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: COMPOSE_PATH_COMMON_CWE-022.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: JBIG2_IMAGE_COMPOSE_JBIG2_IMAGE_CWE-787.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PHP_WDDX_POP_ELEMENT_WDDX_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: XFS_ATTR_SHORTFORM_TO_LEAF_NOT_VULNERABLE_XFS_ATTR_LEAF.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: DNXHD_FIND_FRAME_END_DNXHD_PARSER_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: NNTP_HCACHE_NAMER_NEWSRC_CWE-022.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: NEXT_LINE_ARCHIVE_READ_SUPPORT_FORMAT_MTREE_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: XC2028_SET_CONFIG_TUNER-XC2028_CWE-416.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: SWFINPUT_READSBITS_INPUT_CWE-190.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: INET_RTM_GETROUTE_ROUTE_CWE-476.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: CREATE_DUMP_DIR_FROM_PROBLEM_DATA_CREATE_DUMP_DIR_CWE-022.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: SC_OBERTHUR_READ_FILE_PKCS15-OBERTHUR_CWE-787.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: CX24116_SEND_DISEQC_MSG_CX24116_CWE-125.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: LOGGER__ADDMESSAGE_LOGGER_CWE-079.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: TARFILEREADER__EXTRACT_TARFILEREADER_CWE-022.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: EXIV2__WEBPIMAGE__GETHEADEROFFSET_WEBPIMAGE_CWE-190.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: HPHP__EXIF_SCAN_JPEG_HEADER_EXT_GD_CWE-125.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: HPHP__HHVM_METHOD_EXT_MEMCACHE_CWE-125.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: UTILITY__UNZIP_UTILITY_CWE-022.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PEERLISTWIDGET__ADDPEER_NOT_VULNERABLE_PEERLISTWIDGET.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MULTIPARTINPUTFILE__DATA__CHUNKOFFSETRECONSTRUCTION_IMFMULTIPARTINPUTFILE_CWE-787.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MULTIPARTINPUTFILE__DATA__CHUNKOFFSETRECONSTRUCTION_NOT_VULNERABLE_IMFMULTIPARTINPUTFILE.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: EXIV2__WEBPIMAGE__GETHEADEROFFSET_NOT_VULNERABLE_WEBPIMAGE.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PEERLISTWIDGET__ADDPEER_PEERLISTWIDGET_CWE-079.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: LOGGER__ADDPEER_LOGGER_CWE-079.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: UTILITY__UNZIP_NOT_VULNERABLE_UTILITY.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: LOGGER__ADDPEER_NOT_VULNERABLE_LOGGER.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: AP4_ATOMSAMPLETABLE__GETSAMPLE_AP4ATOMSAMPLETABLE_CWE-476.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: BIN_SYMBOLS_CBIN_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: DNXHD_FIND_FRAME_END_DNXHD_PARSER_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: SC_OBERTHUR_READ_FILE_PKCS15-OBERTHUR_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MXF_PARSE_STRUCTURAL_METADATA_MXFDEC_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: HASH_ACCEPT_ALGIF_HASH_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: HANDLE_METHOD_CALL_ABRT-DBUS_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: SND_USB_CREATE_STREAMS_CARD_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PARSE_HID_REPORT_DESCRIPTOR_GTCO_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MAKE_CANONICAL_PARSER_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: CONCAT_HASH_STRING_SSH_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: R_PKCS7_PARSE_CMS_R_PKCS7_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: KVM_VM_IOCTL_CHECK_EXTENSION_POWERPC_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: IMAGINGLIBTIFFDECODE_TIFFDECODE_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MPOL_PARSE_STR_MEMPOLICY_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: FPM_LOG_WRITE_FPM_LOG_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MAPIPRINT_YTNEF_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: X86_DECODE_INSN_EMULATE_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: FORMUPDATEBUFFER_FORM_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: RDS_CMSG_ATOMIC_RDMA_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: JAVA_SWITCH_OP_ANAL_JAVA_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: UPDATE_READ_BITMAP_DATA_UPDATE_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: WRITETIFFIMAGE_TIFF_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: GDI_BITMAP_DECOMPRESS_GRAPHICS_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: RESOLVESTATEANDPREDICATE_COMPAT_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: APE_DECODE_FRAME_APEDEC_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PATCH_CORE_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: SET_GEOMETRY_FLOPPY_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: BLOSC_C_BLOSC2_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: UPDATE_READ_ICON_INFO_WINDOW_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: MATCHCURRENTINPUT_LOU_TRANSLATESTRING_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: SSL_PARSE_SERVER_PSK_HINT_SSL_CLI_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: INET_RTM_GETROUTE_ROUTE_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: BIG_KEY_INIT_BIG_KEY_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PHP_WDDX_POP_ELEMENT_WDDX_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: XC2028_SET_CONFIG_TUNER-XC2028_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: NAME_PARSE_EVDNS_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: __MDIOBUS_REGISTER_MDIO_BUS_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: ARES_PARSE_A_REPLY_ARES_PARSE_A_REPLY_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: JBIG2_IMAGE_COMPOSE_JBIG2_IMAGE_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: __EXT4_JOURNAL_STOP_EXT4_JBD2_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: LUAD_SHRINKSTACK_LDO_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: COMPOSE_PATH_COMMON_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: TCOS_DECIPHER_CARD-TCOS_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: GETMAGICKMODULEPATH_MODULE_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: SWFINPUT_READSBITS_INPUT_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PGXTOIMAGE_CONVERT_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: CX24116_SEND_DISEQC_MSG_CX24116_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: READMATIMAGE_MAT_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: READDCMIMAGE_DCM_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: USB_AUDIO_PROBE_CARD_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: HANDLE_PORT_FTPCMD_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: PARSE_STRING_CJSON_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: X86_INSN_REG_INTEL_X86MAPPING_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: GETTOKEN_ASM_X86_NZ_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: SKB_SEGMENT_SKBUFF_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: DECODE_ZBUF_PNGDEC_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: RDS_TCP_KILL_SOCK_TCP_NOT_VULNERABLE.C
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: LOGGER::ADDMESSAGE_LOGGER_NOT_VULNERABLE.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: HPHP::HHVM_METHOD_EXT_MEMCACHE_NOT_VULNERABLE.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: HPHP::EXIF_SCAN_JPEG_HEADER_EXT_GD_NOT_VULNERABLE.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: AP4_ATOMSAMPLETABLE::GETSAMPLE_AP4ATOMSAMPLETABLE_NOT_VULNERABLE.CPP
+Assistant Response:
+NOT VULNERABLE
+
+----------------------------------------------------------------------
+
+File: TARFILEREADER::EXTRACT_TARFILEREADER_NOT_VULNERABLE.CPP
+Assistant Response:
+NOT VULNERABLE
