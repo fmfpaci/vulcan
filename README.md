@@ -15,20 +15,32 @@ vulcan/
 - `PrimeVul.zip`: PrimeVul dataset 
 - `DiverseVul.zip`: DiverseVul dataset 
 ### 🔍 results folder
-This folder includes for each studied LLMs the responses generated for all three benchmark datasets and the three zero-shot prompts.
+This folder includes, for each studied LLM, the responses generated for all three benchmark datasets and the three zero-shot prompts.
 ```
 results/
 ├── Model_A/                        # Folder containing the predictions made by Model_A per dataset and prompt        
-  ├── Sven/                         # Folder containing the files with the outputs produced by the 
-  ├── PrimeVul/
+  ├── Sven/
+    ├──prompt_1_assistant_response.txt
+    ├──prompt_1_full_response.txt
+    ├──prompt_2_assistant_response.txt
+    ├──prompt_2_full_response.txt
+    ├──prompt_3_assistant_response.txt
+    ├──prompt_3_full_response.txt             
+  ├── PrimeVul/                     # Folder containing the outputs of the analysis of the functions contained in PrimeVul dataset 
   ├── DiverseVul/                   # Folder containing the Python scripts used to query an LLM for multi-class vulnerability detection and to analyze their outputs
 ```
 ### 🔍 src folder
 This folder includes all the Python scripts used to query the studied LLMs, process their outputs, and compute performance metrics in the three evaluation scenarios.
 
-- `query-Google-models.py`: Python script to query Google LLMs via Google AI Studio API keys. It executes prompt1, prompt2, and prompt3 with the specified model and dataset. The model used is specified by the variable MODEL_NAME, while the dataset is specified by the TEST_DIR variable.
--  `quey-open-source-models.py`: Python script to query an LLM for vulnerability detection. It executes prompt1, prompt2, and prompt3 with the specified model and dataset. The model used is specified by the variable MODEL_NAME, while the dataset is specified by the TEST_DIR variable. 
-- `split-llm-output.py`: This script splits the file prompt_i_assistant_response.txt with the output produced by an LLM into different files - one file for each analyzed function
-- `parser-llm-output.py`: This script has to be run after split-llm-output.py - It generates an Excel file that, for each function analyzed, reports the name of the file, the CWE identifiers of the vulnerabilities identified by an LLM, and the CWE identifiers of the vulnerabilities present
-- `extract-max-f1-model-scenario-dataset.py`: P
+- `query-Google-models.py`: Python script to query Google LLMs via Google AI Studio API keys. It executes prompt1, prompt2, and prompt3 with the specified model and dataset. The model is specified by the MODEL_NAME variable, while the dataset is specified by the TEST_DIR variable.
+-  `quey-open-source-models.py`: Python script to query an LLM for vulnerability detection. It executes prompt1, prompt2, and prompt3 with the specified model and dataset. The model is specified by the MODEL_NAME variable, while the dataset is specified by the TEST_DIR variable. 
+- `split-llm-output.py`: This script splits the file prompt_i_assistant_response.txt with the output produced by an LLM into different files - one file for each analyzed function.
+- `parser-llm-output.py`: This script has to be run after split-llm-output.py - It generates an Excel file that, for each function analyzed, reports the name of the file, the CWE identifiers of the vulnerabilities identified by an LLM, and the CWE identifiers of the vulnerabilities present.
+- `metrics-scenario1.py`: This script calculates for each studied LLM performance metrics precision, recall, and F1-score in evaluation scenario 1 (binary vulnerability detection).
+- `metrics-scenario2.py`: This script calculates performance metrics, weighted F1-score, weighted false positive rate (FPR), and weighted false negative rate (FPN) scenario 2 (multi-class vulnerability detection).
+-  `metrics-scenario3.py`: This script calculates performance metrics, weighted F1-score, weighted false positive rate (FPR), and weighted false negative rate (FPN) scenario 3 (multi-class vulnerability detection).
+- `extract-max-f1-model-scenario-dataset.py`: This script scans experiment result folders, extracts F1 and Weighted F1 scores from Excel files for multiple models, datasets, and scenarios, and saves the maximum values into a consolidated Excel report with per-model sheets and a global summary.
+- `extract-max-f1-score-per-cwe.py`: This script aggregates experimental results from multiple Excel files to compute, for each model and CWE (MITRE Top 25), the maximum F1-score observed across datasets. It outputs a consolidated Excel table with models as rows, CWEs as columns, and values ordered according to a predefined CWE ranking.
+- ` `: 
+- `detect-hallucinations.py`: This script computes hallucination rates for each studied LLM and  entity-error, invented CWE, instruction inconsistency, and context inconsistency hallucination categories.
   
