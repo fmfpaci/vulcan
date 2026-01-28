@@ -19,15 +19,15 @@ This folder includes, for each studied LLM, the responses generated for all thre
 ```
 results/
 ├── Model_A/                        # Folder containing the predictions made by Model_A per dataset and prompt        
-  ├── Sven/
-    ├──prompt_1_assistant_response.txt
-    ├──prompt_1_full_response.txt
-    ├──prompt_2_assistant_response.txt
-    ├──prompt_2_full_response.txt
-    ├──prompt_3_assistant_response.txt
-    ├──prompt_3_full_response.txt             
-  ├── PrimeVul/                     # Folder containing the outputs of the analysis of the functions contained in PrimeVul dataset 
-  ├── DiverseVul/                   # Folder containing the Python scripts used to query an LLM for multi-class vulnerability detection and to analyze their outputs
+  ├── Sven/                        # Folder containing the results of the function-level analysis performed on the Sven dataset.
+    ├──prompt_1_assistant_response.txt # Results of the function-level analysis performed on the Sven dataset with prompt 1
+    ├──prompt_1_full_response.txt # Full response of the function-level analysis performed on the Sven dataset with prompt 1
+    ├──prompt_2_assistant_response.txt # Results of the function-level analysis performed on the Sven dataset with prompt 2
+    ├──prompt_2_full_response.txt # Full response of the function-level analysis performed on the Sven dataset with prompt 2
+    ├──prompt_3_assistant_response.txt # Results of the function-level analysis performed on the Sven dataset with prompt 3
+    ├──prompt_3_full_response.txt  # Full response of the function-level analysis performed on the Sven dataset with prompt 3       
+  ├── PrimeVul/                     # Folder containing the results of the function-level analysis performed on the PrimeVul dataset.
+  ├── DiverseVul/                   # Folder containing the results of the function-level analysis performed on the DiverseVul dataset.
 ```
 ### 🔍 src folder
 This folder includes all the Python scripts used to query the studied LLMs, process their outputs, compute performance metrics in the three evaluation scenarios, and detect hallucinations.
