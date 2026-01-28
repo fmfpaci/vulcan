@@ -1,4 +1,4 @@
-# Evaluating Large Language Model Capabilities for Zero-Shot Multi-Class Vulnerability Detection
+# How Good Are LLMs at Zero-Shot Multi-Class Vulnerability Detection?
 
 ## 🗂️ Repository Structure
 
