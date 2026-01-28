@@ -44,7 +44,11 @@ the MITRE CWE hierarchy.
 - `extract-max-f1-model-scenario-dataset.py`: This script scans experiment result folders, extracts F1 and Weighted F1 scores from Excel files for multiple models, datasets, and scenarios, and saves the maximum values into a consolidated Excel report with per-model sheets and a global summary.
 - `extract-max-f1-score-per-cwe.py`: This script aggregates experimental results from multiple Excel files to compute, for each model and CWE (MITRE Top 25), the maximum F1-score observed across datasets. It outputs a consolidated Excel table with models as rows, CWEs as columns, and values ordered according to a predefined CWE ranking.
 - `create-bar-plot-max-w-f1.py`: This script creates a bar plot that represents for each studied LLM the maximum F1 score or maximum weighted F1 score achieved in a given evaluation scenario.
+- `heatmap.r `: This R script reads F1-score results from an Excel file and generates a heatmap showing the performance of the studied LLM across CWE classes.
+- `filter-data-cppcheck.py `: This script scans a structured directory of Cppcheck analysis results, filters CSV or Excel files to retain only rows associated with selected CWE classes or marked as NOT_VULNERABLE, and overwrites the original files with the filtered data. The filtering is applied per dataset (Sven, PrimeVul, DiverseVul) using configurable CWE lists.
+- `filter-data-flawfinder.py `: This script scans a structured directory of Flawfinder analysis results, filters CSV or Excel files to retain only rows associated with selected CWE classes or marked as NOT_VULNERABLE, and overwrites the original files with the filtered data. The filtering is applied per dataset (Sven, PrimeVul, DiverseVul) using configurable CWE lists.
 - `detect-hallucinations.py`: This script computes hallucination rates for each studied LLM and  entity-error, invented CWE, instruction inconsistency, and context inconsistency hallucination categories.
 - `admitted_cwe_updated.xlsx`: This Excel file includes the list of CWE identifiers applicable to C/C++ programming language, which is used to detect context inconsistency hallucinations.
 - `cwec_latest.xml.xlsx`: This XML file contains the MITRE CWE taxonomy.
+  
   
