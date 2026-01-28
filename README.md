@@ -5,7 +5,7 @@
 ```
 vulcan/
 ├── datasets/                        # Folder containing the datasets to test the performance of LLMs in multi-class vulnerability detection               
-├── results/                         # Folder containing the files with the outputs produced by thes studied LLMs
+├── results/                         # Folder containing the files with the outputs produced by the studied LLMs
 ├── inference/                       # Folder containing the Python scripts used to query an LLM for multi-class vulnerability detection and to analyze their outputs
 └── README.md
 ```
